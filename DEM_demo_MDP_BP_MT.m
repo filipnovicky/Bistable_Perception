@@ -257,7 +257,7 @@ for ze = 1:nze
                 xticklabels({'Left', 'Right'})
                 colorbar;
                 yticks([1 2])
-                yticklabels({'Left', 'Right'})
+                yticklabels({'Right', 'Left'})
                 caxis([0 1]);
                 y = MDP.b{1};
                 imagesc(flipud(y))
