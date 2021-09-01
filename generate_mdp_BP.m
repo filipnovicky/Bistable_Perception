@@ -1,7 +1,5 @@
 function mdp = generate_mdp_BP(beta,omega,alpha,zeta,T)
 
-addpath '\\unimaas.nl\users\Students\i6256962\data\My Documents\MATLAB\spm12\toolbox\DEM'
-
 %% Prior beliefs: P(s_o)
 % =============================
 D{1} = [0.5 0.5]';  % Orientation {Left, Right}
