@@ -139,9 +139,9 @@ end
 
 
 for f2 = 1:3
-    b{2}(f2,:,f2) = 100; % Precise beliefs about actions
+    b{2}(f2,:,f2) = 1; % Precise beliefs about actions
 end
-B{2} = b{2}*100;
+B{2} = b{2};
 
 % C matrix so there is no action towards null fixation
 C{1} = zeros(3,T);
